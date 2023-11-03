@@ -13,6 +13,8 @@
 
 <h2>Plain paragraph tags</h2>
 
+<p>The follow examples are all wrapped in paragraph tags.</p>
+
 <h3>WITH A HYPHEN</h3>
 <p>11.30am-12pm</p>
 <p>11.30am - 12pm</p>
@@ -51,5 +53,148 @@
 <p>21:00 – 05:00</p>
 <p>9pm to 5am</p>
 <p>21:00 to 05:00</p>
+
+<h2>With Time tags</h2>
+<p>The below items are written similar to:</p>
+<code>
+    <pre>&lt;p&gt;&lt;time datetime=&quot;11:30&quot;&gt;11.30am&lt;/time&gt;-&lt;time datetime=&quot;12:00&quot;&gt;12pm&lt;/time&gt;&lt;/p&gt;</pre>
+</code>
+
+<h3>WITH A HYPHEN</h3>
+<p>
+    <time datetime="11:30">11.30am</time>
+    -
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:30">11.30am</time>
+    -
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:30">11:30</time>
+    -
+    <time datetime="12:00">12:00</time>
+</p>
+<p>
+    <time datetime="11:30">11:30</time>
+    -
+    <time datetime="12:00">12:00</time>
+</p>
+
+<h3>WITH AN EN-DASH (–):</h3>
+<p>
+    <time datetime="11:30">11.30am</time>
+    –
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:30">11.30am</time>
+    –
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:30">11:30</time>
+    –
+    <time datetime="12:00">12:00</time>
+</p>
+<p>
+    <time datetime="11:30">11:30</time>
+    –
+    <time datetime="12:00">12:00</time>
+</p>
+
+<h3>WITH 'TO':</h3>
+<p>
+    <time datetime="11:30">11.30am</time>
+    to
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:30">11.30</time>
+    to
+    <time datetime="12:00">12.00</time>
+</p>
+<p>
+    <time datetime="11:30">11:30</time>
+    to
+    <time datetime="12:00">12:00</time>
+</p>
+<p>
+    <time datetime="11:30">11:30am</time>
+    to
+    <time datetime="12:00">12:00pm</time>
+</p>
+
+<h3>11AM INSTEAD OF 11.30AM:</h3>
+<p>
+    <time datetime="11:00">11am</time>
+    -
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:00">11am</time>
+    -
+    <time datetime="12:00">12pm</time>
+</p>
+<p>
+    <time datetime="11:00">11:00</time>
+    to
+    <time datetime="12:00">12:00</time>
+</p>
+<p>
+    <time datetime="11:00">11am</time>
+    to
+    <time datetime="12:00">12pm</time>
+</p>
+
+<h3>Others</h3>
+<p>
+    <time datetime="21:00">9PM</time>
+    -
+    <time datetime="05:00">5AM</time>
+    :
+</p>
+<p>
+    <time datetime="21:00">9pm</time>
+    -
+    <time datetime="05:00">5am</time>
+</p>
+<p>
+    <time datetime="21:00">21:00</time>
+    -
+    <time datetime="05:00">05:00</time>
+</p>
+<p>
+    <time datetime="21:00">21:00</time>
+    -
+    <time datetime="05:00">05:00</time>
+</p>
+<p>
+    <time datetime="21:00">9pm</time>
+    –
+    <time datetime="05:00">5am</time>
+</p>
+<p>
+    <time datetime="21:00">21:00</time>
+    –
+    <time datetime="05:00">05:00</time>
+</p>
+<p>
+    <time datetime="21:00">21:00</time>
+    –
+    <time datetime="05:00">05:00</time>
+</p>
+<p>
+    <time datetime="21:00">9pm</time>
+    to
+    <time datetime="05:00">5am</time>
+</p>
+<p>
+    <time datetime="21:00">21:00</time>
+    to
+    <time datetime="05:00">05:00</time>
+</p>
+
 </body>
 </html>
